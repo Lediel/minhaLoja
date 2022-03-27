@@ -3,10 +3,10 @@
     align-items: center;
     justify-content: center;
     height: 100px;
-    background-color: rgb(17, 83, 20);
+    background-color: rgba(0, 0, 0, 0.842);
     padding: 10px;
     color: white;
-    box-shadow: 0px 0px 500px  rgba(30,144,255, 0.774);
+    box-shadow: 0px 0px 500px  rgba(0, 0, 0, 0.842);
     margin-bottom: 20px;
     /* border-bottom: 3px ridge rgba(30,144,255, 0.822); */
     border-bottom-left-radius: 20px;
@@ -55,7 +55,7 @@
     text-shadow: 5px 5px 8px  rgb(0, 0, 0);
   }
   .logo b{
-    color: rgba(191, 206, 255, 0.747);
+    color: rgba(155, 88, 221, 0.979);
     
   }
   
