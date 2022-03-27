@@ -1,0 +1,33 @@
+
+
+.productsArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.products{
+  max-width: 1200px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+}
+
+@media  (max-width: 850px){
+  .products{
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media  (max-width: 650px){
+  
+  .products{
+    grid-template-columns: auto auto;
+  }
+}
+
+@media  (max-width: 420px){
+  .products{
+    grid-template-columns: auto ;
+  }
+}

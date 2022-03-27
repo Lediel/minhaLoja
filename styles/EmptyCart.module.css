@@ -1,0 +1,35 @@
+.emptyCart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyCart h1{
+    font-size: 4rem;
+}
+
+.emptyCart button{
+    font-size: 2.3rem;
+    font-weight: bold;
+    height: 40px;
+    display: block;
+    margin-bottom: 40px;
+    background-color: white;
+    color: rgb(255, 101, 0);
+    border: 1px solid rgb(255, 101, 0);
+    border-radius: 5px;
+    
+}
+
+.emptyCart button:hover{
+    color: rgba(255, 102, 0, 0.719);
+    border: 1px solid rgb(255, 101, 0, 0.719);
+    cursor: pointer;
+}
+
+.emptyCart img{
+    height: 400px;
+    margin-right: 70px;
+}

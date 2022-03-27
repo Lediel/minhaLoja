@@ -1,0 +1,127 @@
+.container{
+    margin-top: 30px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContainer img{
+    height: 100px;
+}
+
+.mainContainer > div:first-child{
+    display: flex;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+    /* border: 1px solid black; */
+}
+.info span{
+    margin-bottom: 10px;
+
+}
+.info p{
+    margin: 0;
+    color: rgb(127, 133, 141);
+    font-size: 13px;
+    cursor: default;
+}
+
+.info > span:first-of-type{
+    font-weight: bold;
+    color: rgb(66, 70, 77);
+    font-size: 15px;
+}
+
+.info > span:first-of-type:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info > span:last-child{
+    color: rgb(127, 133, 141);
+    font-size: 13px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn p{
+    margin: 0;
+    font-size: 13px;
+    color: rgb(66, 70, 77);
+    
+}
+
+.btn span{
+    display: flex;
+    margin: 15px 0px;
+    font-size: 20px;
+    height: 33px;
+    width: 90px;
+    justify-content: space-between;
+
+}
+
+.btn span button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(255, 101, 0);
+    cursor: pointer;
+    
+}
+
+.btn button{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: rgb(231, 38, 38);
+    font-size: 12px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    /* border: 1px solid black; */
+}
+
+.btn button span{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+
+
+
+
+
+
+
+.price{
+    font-size: 13px;
+    color: rgb(66, 70, 77);
+}
+
+.price h3{
+    color: rgb(255, 101, 0);
+    text-align: end;
+    font-size: 18px;
+}
+

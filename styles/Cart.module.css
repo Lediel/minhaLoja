@@ -1,0 +1,164 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+    width: 930px;
+    min-height: 735px;
+    margin: 30px 15px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.mainContainer > div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainContainer .btnRemove{
+    display: flex;
+    align-items: center;
+    color: rgb(231, 38, 38);
+    font-weight: bold;
+    border: 1px solid rgb(231, 38, 38);
+    border-radius: 5px;
+    background-color: transparent;
+    height: 40px;
+    cursor: pointer;
+}
+
+.mainContainer .btnRemove:hover{
+    color: rgb(231, 38, 38, 0.719);
+    border: 1px solid rgb(231, 38, 38, 0.719);
+}
+
+.mainContainer > div:first-child button > :first-child{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.mainContainer > div:first-of-type h1> :first-child{
+    color: rgb(255, 101, 0);
+    font-size: 25px;   
+}
+
+.resume{
+    background-color: white;
+    width: 300px;
+    height: 550px;
+    margin: 30px 15px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.price1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 7px;
+
+}
+
+
+
+.total{
+    background: rgb(250, 250, 251);
+    padding: 7px;
+    font-size: 13px;
+}
+
+.total span{
+    color: rgb(127, 133, 141);
+    
+}
+
+.total div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.total .parcelas{   
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    
+}
+
+.parcelas p{
+    margin-bottom: 0;
+}
+
+/* .resume div{
+    padding: 3px;
+} */
+
+.pix{
+    display: flex;
+    flex-direction: column;
+    background: rgb(229, 255, 241);
+    color: rgb(31, 144, 80);
+    padding: 15px;
+    margin: 30px 0px;
+    box-sizing: border-box;
+}
+
+.pix h4{
+
+    margin: 0;
+}
+
+.pix h1{
+    margin: 0;
+    text-align: end;
+}
+
+.pix h5{
+    margin: 0;
+    text-align: end;
+}
+
+.resume button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnPagamento{
+  background-color: rgb(255, 101, 0);
+  color: white;
+  border: 1px solid rgb(255, 101, 0);
+  border-radius: 5px;
+}
+
+.btnPagamento:hover{
+    background-color: rgb(255, 101, 0, 0.719);
+    cursor: pointer;
+}
+
+.btnVoltar{
+    background-color: white;
+    color: rgb(255, 101, 0);
+    border: 1px solid rgb(255, 101, 0);
+    border-radius: 5px;
+}
+
+.btnVoltar:hover{
+    color: rgba(255, 102, 0, 0.719);
+    border: 1px solid rgb(255, 101, 0, 0.719);
+    cursor: pointer;
+}
