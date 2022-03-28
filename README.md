@@ -19,13 +19,13 @@ Para gerar as páginas de cada item, usei a funcionalidade do Next para pegar di
   <img src="/public/assets/images/toReadme/2.gif"> 
 </p>
 
-* Em cada componente do carrinho, tem um estado onde é possível controlar a quantidade de cada item, assim também somando no preço e no ícone de carrinho.
+* Em cada componente do carrinho, tem um estado onde é possível controlar a quantidade de cada item, assim também somando no preço e no ícone do carrinho.
 
 <p aling="center">
   <img src="/public/assets/images/toReadme/3.gif"> 
 </p>
 
-* Adicionei um botão onde é possível excluir cada ítem, como também adicionei um botão onde é possivel excluir todos os ítens.
+* Adicionei um botão onde é possível excluir cada ítem, como também adicionei um botão onde é possivel excluir todos os ítens, também refletindo no preço e no ícone do carrinho.
 
 <p aling="center">
   <img src="/public/assets/images/toReadme/4.gif"> 
