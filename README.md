@@ -28,5 +28,5 @@ Para gerar as páginas de cada item, usei a funcionalidade do Next para pegar di
 * Adicionei um botão onde é possível excluir cada ítem, como também adicionei um botão onde é possivel excluir todos os ítens.
 
 <p aling="center">
-  <img src="/public/assets/images/toReadme/3.gif"> 
+  <img src="/public/assets/images/toReadme/4.gif"> 
 </p>
