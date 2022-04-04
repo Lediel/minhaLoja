@@ -1,4 +1,6 @@
-# Olá essa é minha loja
+# Em andamento 
+
+## Olá essa é minha loja
 
 Após 6 meses estudando, eu quis desenvolver alguma coisa para testar meus conhecimentos e exercitar, então resolvi fazer uma lojinha virtual com carrinho funcional.<br>
 Eu ia inicialmente usar somente React para fazer ela, porem eu resolvi usar esse projeto para poder aprender algo novo, entao resolvi usar o NextJS.<br>
